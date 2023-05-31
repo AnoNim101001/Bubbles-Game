@@ -1,0 +1,38 @@
+ #score {
+   position: absolute;
+   font-size: 3rem;
+ }
+ 
+ #display {
+    width: 90%;
+    height: 90vh;
+    border: solid 1px;
+    margin: auto;
+    border-bottom: solid 3px;
+   overflow: hidden;
+ }
+
+ .bubble {
+    position: absolute;
+    padding: 20px;
+    border: solid 1px;
+    border-radius: 50%;
+
+    background-color: red;
+    animation-duration: 10s;
+    animation-name: animation;
+    
+ }
+
+ @keyframes animation {
+   from {
+      top: -10%;
+   }
+
+   to {
+      top: 80%;
+   }
+ }
+
+ 
+ 
